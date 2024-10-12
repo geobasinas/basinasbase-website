@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "lts/*"  # This will use the latest LTS version of Node.js
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm ci
+
+script:
+  - npm run build
+  - npm run test
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
