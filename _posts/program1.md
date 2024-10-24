@@ -1,7 +1,7 @@
-# Introduction to Python Programming
-Author: Georgios Basinas  
-Date: October 24, 2024  
-Subject: Input Handling and Quadratic Equations
+---
+title: 'Introduction to Python Programming'
+date: '2024-24-10'
+---
 
 
 # Programming Lecture: Working with User Input and Solving Quadratic Equations
